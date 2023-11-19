@@ -11,3 +11,7 @@
 
 ## key to access the queue
     - Storage account > Access keys
+
+## Service Buss capabilities 
+    - Azure Service Bus > Namespace > Queue (Producers/Compumers)
+    - Azure Service Bus > Namespace > Topics (Producers/ Many subscribers (with filter))
