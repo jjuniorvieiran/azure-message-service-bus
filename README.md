@@ -15,3 +15,6 @@
 ## Service Buss capabilities 
     - Azure Service Bus > Namespace > Queue (Producers/Compumers)
     - Azure Service Bus > Namespace > Topics (Producers/ Many subscribers (with filter))
+
+## DLQ Dead-letter queue
+    - This enable you to capture messages in that were not processed
