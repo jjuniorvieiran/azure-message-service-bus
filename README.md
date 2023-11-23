@@ -18,3 +18,6 @@
 
 ## DLQ Dead-letter queue
     - This enable you to capture messages in that were not processed
+
+## Azure message solutions 
+    - Azure queue store VS Azure Service Bus Queue
