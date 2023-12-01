@@ -21,3 +21,7 @@
 
 ## Azure message solutions 
     - Azure queue store VS Azure Service Bus Queue
+
+## Using service bus with SDK
+    - `npm run queue:producer`
+    - `npm run queue:consumer`
