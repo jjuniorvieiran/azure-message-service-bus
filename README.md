@@ -25,3 +25,7 @@
 ## Using service bus with SDK
     - `npm run queue:producer`
     - `npm run queue:consumer`
+
+## utilising service bus topics
+    - enables one-to-many relations between messages and consumers
+    - consumers subscribe to the topic messages
