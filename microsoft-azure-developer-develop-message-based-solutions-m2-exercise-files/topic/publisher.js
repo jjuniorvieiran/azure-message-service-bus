@@ -8,7 +8,7 @@ if(!connectionString) {
 
 // Create a sender for the queue
 const serviceBusClient = ServiceBusClient.createFromConnectionString(connectionString);
-const topicClient = serviceBusClient.createTopicClient('testtopic');
+const topicClient = serviceBusClient.createTopicClient('testtopic'); // here we are creating a topic client
 const topicSender = topicClient.createSender();
 
 // This is a utility function that just allows us to insert a delay (using
