@@ -7,6 +7,7 @@ or with the CLI.  One should be named 'odd' and one named 'even'.
 
 You can create this with the CLI by calling:
 
+Command to create a topic subscription
 az servicebus topic subscription create --resource-group <myresourcegroup> --namespace-name <mynamespace> --topic-name testtopic --name Odd
 az servicebus topic subscription create --resource-group <myresourcegroup> --namespace-name <mynamespace> --topic-name testtopic --name Even
 
