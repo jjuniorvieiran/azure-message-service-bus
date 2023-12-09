@@ -33,7 +33,7 @@ const setupSubscription = async (client) => {
   for (let i = 0; i < rules.length; i++) {
     await client.removeRule(rules[i].name);
   }
-  await client.addRule('labelRule', { label: subscriptionName });
+  await client.addRule('labelRule', { label: subscriptionName }); // subscriptionName should be either 'Odd' or 'Even'
 }
 
 // Create a sender for the queue
