@@ -2,6 +2,14 @@
 
 INSTRUCTIONS
 
+when run npm run topic, publisher and subscriber will run at the same time.
+
+    "topic:publisher": "node topic/publisher.js",
+    "topic:subscriber-odd": "node topic/subscriber.js Odd", 
+    "topic:subscriber-even": "node topic/subscriber.js Even",
+    "topic": "run-p -l topic:*"
+
+
 Before this sample will work, you will need to create two subscriptions in either the portal
 or with the CLI.  One should be named 'odd' and one named 'even'. 
 
